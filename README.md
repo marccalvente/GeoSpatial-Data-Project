@@ -31,9 +31,30 @@ As a data engineer you have asked all the employees to show their preferences on
 
 ## Choosing the candidate cities
 
+For choosing the 
+
+[Selecting city notebook](https://github.com/marccalvente/GeoSpatial-Data-Project/tree/main/src/selecting_city.ipynb)
+
 ## Process for selecting the best placement in the city
+
+[Selecting optimal location notebook](https://github.com/marccalvente/GeoSpatial-Data-Project/tree/main/src/getting_api_locations.ipynb)
 
 ## Visualization
 
+## Conclusion
 
+-----------------------
 #### Project structure
+
+The project follows the structure:
+
+- ./data
+    - Contains the DataFrames with information extracted from MongoDB for San Francisco and New York.
+
+- ./images
+    - empty for now
+
+- ./src
+    - utilities.py: containing all the functions defined for the project
+    - selecting_city.ipynb: notebook with the process of extracting data from mongoDB, manipulating it and exporting dataframes with the info for the selected cities.
+    - getting_api_locations.ipynb: 
